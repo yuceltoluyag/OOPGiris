@@ -3,19 +3,35 @@
 
 namespace OOPGiris
 {
-     class Program
+    class Program
     {
         static void Main()
         {
             Program p = new Program();
-            int sonuc = p.topla(3, 2);
-            Console.WriteLine(sonuc);
+            /* Toplama İşlemi*/
+            int sonuc = p.Topla(3, 2);
+            Console.WriteLine("Toplam Sonucu {0}", sonuc);
+            /* Çarpım İşlemi*/
+            int carpimSonuc = Carp(3, 5);
+            Console.WriteLine("Çarpım Sonucu {0}", carpimSonuc);
+            /* Ekrana Yaz */
+            p.EkranaYaz("Hello Windozort");
             Console.ReadKey();
         }
 
-        private int topla (int a, int b)
+        private int Topla(int a, int b)
         {
             return a + b;
+        }
+
+        static int Carp(int x, int y)
+        {
+            return x * y;
+        }
+
+        private void EkranaYaz (string input)
+        {
+            Console.WriteLine(input);
         }
     }
 }
