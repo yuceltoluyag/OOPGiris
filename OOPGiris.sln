@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPGiris", "OOPGiris.csproj", "{45E2C47E-A6E0-4299-BB40-BCE353821136}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method", "..\Method\Method.csproj", "{57F936BA-BAEB-491E-A9F3-47C3ADC7F168}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{45E2C47E-A6E0-4299-BB40-BCE353821136}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E2C47E-A6E0-4299-BB40-BCE353821136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E2C47E-A6E0-4299-BB40-BCE353821136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F936BA-BAEB-491E-A9F3-47C3ADC7F168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F936BA-BAEB-491E-A9F3-47C3ADC7F168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F936BA-BAEB-491E-A9F3-47C3ADC7F168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F936BA-BAEB-491E-A9F3-47C3ADC7F168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
